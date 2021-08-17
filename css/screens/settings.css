@@ -1,0 +1,23 @@
+.settings__setting{
+    padding:20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__setting:last-child{
+    padding-bottom: 45px;
+    border-bottom: none;
+}
+.settings__setting i {
+    margin-right:20px;
+    font-size:22px;
+    color:rgba(0,0,0,0.8);
+}
+.settings__setting-column:last-child{
+    opacity: 0.5;
+}
+.settings-line {
+    border:0.5px solid rgba(0,0,0,0.08);
+}

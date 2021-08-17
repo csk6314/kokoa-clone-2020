@@ -1,0 +1,26 @@
+.screen-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+}
+.screen-header__title{
+    font-size:30px;
+    font-weight: 600;
+}
+.screen-header__icons {
+    display: flex;
+    align-items: center;
+}
+.screen-header__icons span{
+    display: block;
+    margin-left: 25px;
+}
+.screen-header__icons>span:last-child{
+    position: relative;
+}
+.nav_notification-2__oncog{
+    position: absolute;
+    bottom :16px;
+}

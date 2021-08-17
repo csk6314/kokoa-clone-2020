@@ -1,0 +1,26 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-row__icon i {
+    font-size: 35px;
+}
+.icon-row span {
+    margin-top:15px;
+}
+.icon-row__icon .hide-span {
+    opacity: 0;
+}
+.icon-row__icon--rel {
+    position: relative;
+}
+.icon-row__icon .nav_notification-2{
+    position: absolute;
+    right: 5px;
+    top:-12px;
+}
